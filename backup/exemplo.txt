@@ -1,0 +1,22 @@
+marcosarrais.com/puc/exemplo_marcos
+marcosarrais.com/puc/pwa_simples.zip
+
+https://api.nasa.gov/
+
+
+
+html http://pastebin.com/5qvypcqb
+
+css  http://pastebin.com/zpgrgjfc
+
+js   http://pastebin.com/xh9tgyud
+
+
+gerador de ícone.
+
+- tem q ser quadrado.
+- tamanho de 1024x1024
+
+site
+favicon-generator.org
+favicon-generator.org
