@@ -1,0 +1,38 @@
+<produtos>
+	<produto>
+		<cod_pro>93</cod_pro>
+		<cod_barras_pro>7896365000037</cod_barras_pro>
+		<descricao_pro>MASSA PEQUENA PASTEL Carmelito 500G</descricao_pro>
+		<descricao_pdv_pro>MASSA PEQUENA 500G</descricao_pdv_pro>
+	</produto>
+	<produto>
+		<cod_pro>94</cod_pro>
+		<cod_barras_pro>7896365000044</cod_barras_pro>
+		<descricao_pro>MASSA ANIVERSARIO PASTEL Carmelito 500gr</descricao_pro>
+		<descricao_pdv_pro>MASSA ANIVERSARIO 500G</descricao_pdv_pro>
+	</produto>
+	<produto>
+		<cod_pro>97</cod_pro>
+		<cod_barras_pro>7896365000068</cod_barras_pro>
+		<descricao_pro>PASTEIZINHOS CARNE 240G Carmelito</descricao_pro>
+		<descricao_pdv_pro>PASTEIZINHOS CARNE 240G</descricao_pdv_pro>
+	</produto>
+	<produto>
+		<cod_pro>116</cod_pro>
+		<cod_barras_pro>7896365000143</cod_barras_pro>
+		<descricao_pro>RICOTA FRESCA Carmelito</descricao_pro>
+		<descricao_pdv_pro>RICOTA FRESCA</descricao_pdv_pro>
+	</produto>	
+	<produto>
+		<cod_pro>19131</cod_pro>
+		<cod_barras_pro>7896365000211</cod_barras_pro>
+		<descricao_pro>PAO DE ALHO COM PROVOLONE Carmelito 280G</descricao_pro>
+		<descricao_pdv_pro>PAO DE ALHO COM PROVOLONE 280G</descricao_pdv_pro>
+	</produto>		
+	<produto>
+		<cod_pro>97</cod_pro>
+		<cod_barras_pro>7896365000068</cod_barras_pro>
+		<descricao_pro>PASTEIZINHOS CARNE 240G Carmelito</descricao_pro>
+		<descricao_pdv_pro>PASTEIZINHOS CARNE 240G</descricao_pdv_pro>
+	</produto>		
+</produtos>

@@ -3,16 +3,13 @@
       class="feed-pager"
       draggable="false">
 
+    <section class="content" data-ui-load="@lib/controllers/header_auto_hide" data-ui-options="options.autoHidingBars">
+        <div data-ui-load="pages/home/prods_list"
+             data-o-rss="http://127.0.0.1:5500/dados2.xml"></div>
+
+    </section>
+
     <!-- 
-      <section class="content" data-ui-load="@lib/controllers/header_auto_hide" data-ui-options="options.autoHidingBars">
-
-        <div data-ui-load="pages/home/items_list"
-             data-o-rss="http://127.0.0.1:5500/dados.json"></div>
-
-      </section>
-    -->  
-
-    <!-- TOP STORIES -->
     <section class="content" data-ui-load="@lib/controllers/header_auto_hide" data-ui-options="options.autoHidingBars">
 
         <div data-ui-load="pages/home/items_list"
@@ -20,7 +17,6 @@
 
     </section>
 
-    <!-- WORLD -->
     <section class="content" data-ui-load="@lib/controllers/header_auto_hide" data-ui-options="options.autoHidingBars">
 
         <div data-ui-load="pages/home/items_list"
@@ -28,7 +24,6 @@
 
     </section>
 
-    <!-- EUROPE -->
     <section class="content" data-ui-load="@lib/controllers/header_auto_hide" data-ui-options="options.autoHidingBars">
 
         <div data-ui-load="pages/home/items_list"
@@ -36,13 +31,13 @@
 
     </section>
 
-    <!-- TRAVEL -->
     <section class="content" data-ui-load="@lib/controllers/header_auto_hide" data-ui-options="options.autoHidingBars">
 
         <div data-ui-load="pages/home/items_list"
              data-o-rss="http://rss.cnn.com/rss/edition_travel.rss"></div>
 
     </section>
+-->
 
 </div>
 <div data-ui-load="@lib/components/context_menu"
