@@ -50,8 +50,8 @@ zuix.controller(function(cp) {
   function fetchList(rssUrl) {
     // CORS proxy https://cors-anywhere.herokuapp.com/
     zx.$.ajax({
-      //url: "http://127.0.0.1:5500/dados2.json",
-      url: rssUrl,
+      url: "http://127.0.0.1:5500/produtos.json",
+      //url: rssUrl,
       success: function(res) {        
         prodsList = parseProd(res);
         refresh();        
@@ -75,14 +75,49 @@ zuix.controller(function(cp) {
       const descricao_pro = getText(this.find('descricao_pro'));
       const cod_barras_pro = getText(this.find('cod_barras_pro'));
       const descricao_pdv_pro = getText(this.find('descricao_pdv_pro'));
-      
-      const image = "/images/logo.png";
+
+      const estoque_pro = getText(this.find('estoque_pro'));
+      const valor_pro = getText(this.find('valor_pro'));
+      const und_pro = getText(this.find('und_pro'));
+      const mva_pro = getText(this.find('mva_pro'));
+      const cst_pro = getText(this.find('cst_pro'));
+      const icms_pro = getText(this.find('icms_pro'));
+      const reducao_base_pro = getText(this.find('reducao_base_pro'));
+      const cod_cfo = getText(this.find('cod_cfo'));
+      const quantidade_pro = getText(this.find('quantidade_pro'));
+      const ordem_pro = getText(this.find('ordem_pro'));
+      const peso_bruto_pro = getText(this.find('peso_bruto_pro'));
+      const peso_liquido_pro = getText(this.find('peso_liquido_pro'));
+      const cod_trb_pis_pro = getText(this.find('cod_trb_pis_pro'));
+      const perc_pis_pro = getText(this.find('perc_pis_pro'));
+      const cod_trb_cofins_pro = getText(this.find('cod_trb_cofins_pro'));
+      const perc_cofins_pro = getText(this.find('perc_cofins_pro'));
+      const cest_pro = getText(this.find('cest_pro'));
+
+      const image = "/images/produtos/" + cod_pro + ".png" ;
       if (descricao_pro !== '') {
         prods.push({
           cod_pro,
           descricao_pro,
           cod_barras_pro,
           descricao_pdv_pro,
+          estoque_pro,
+          valor_pro,
+          und_pro,
+          mva_pro,
+          cst_pro,
+          icms_pro,
+          reducao_base_pro,
+          cod_cfo,
+          quantidade_pro,
+          ordem_pro,
+          peso_bruto_pro,
+          peso_liquido_pro,
+          cod_trb_pis_pro,
+          perc_pis_pro,
+          cod_trb_cofins_pro,
+          perc_cofins_pro,
+          cest_pro,  
           image
         });
       }

@@ -20,3 +20,7 @@ gerador de ícone.
 site
 favicon-generator.org
 favicon-generator.org
+
+appicon.co
+
+wetransfer.com

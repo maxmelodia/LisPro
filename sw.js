@@ -79,7 +79,7 @@ self.addEventListener('activate', event => {
             .then(() => self.clients.claim())
     );
 });
-self.addEventListener('fetch', event => {
+self.addEventListener('fetch', event => { 
     const request = event.request;
     const url = new URL(request.url);
     if (request.method !== 'GET'
