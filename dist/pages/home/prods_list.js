@@ -50,8 +50,9 @@ zuix.controller(function(cp) {
   function fetchList(rssUrl) {
     // CORS proxy https://cors-anywhere.herokuapp.com/
     zx.$.ajax({
-      url: "http://localhost:5000/produtos.json",
+      //url: "http://localhost:5000/produtos.json",
       //url: rssUrl,
+      url:"https://lispro.herokuapp.com/produtos.json",
       success: function(res) {        
         prodsList = parseProd(res);
         refresh();        
